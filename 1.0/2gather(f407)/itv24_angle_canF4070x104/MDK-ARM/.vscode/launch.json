@@ -1,0 +1,24 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "d:/HjcProjcet/SOFTROBO/2项目/2新版/2程序/19-关节指令串口发送/itv24_angle_canF4070x104/Core/Src",
+      "program": "d:/HjcProjcet/SOFTROBO/2项目/2新版/2程序/19-关节指令串口发送/itv24_angle_canF4070x104/Core/Src/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}

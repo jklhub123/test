@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+        "cmsis_os.h": "c",
+        "protocol.C": "cpp",
+        "type_traits": "c",
+        "xtr1common": "c",
+        "xutility": "c"
+    }
+}

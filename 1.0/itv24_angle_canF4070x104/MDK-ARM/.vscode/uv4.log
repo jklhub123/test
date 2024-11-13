@@ -1,0 +1,11 @@
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'D:\keil5\ARM\ARMCC\Bin'
+Build target 'BLFCN_V2.0'
+compiling can.c...
+..\Core\Src\can.c(610): warning:  #167-D: argument of type "int8_t *" is incompatible with parameter of type "uint8_t *"
+  	CAN_Send(id + 0x141, cmdtemp);
+..\Core\Src\can.c: 1 warning, 0 errors
+linking...
+Program Size: Code=35000 RO-data=632 RW-data=580 ZI-data=26068  
+FromELF: creating hex file...
+"BLFCN_V2.0\FFPIDv2.axf" - 0 Error(s), 1 Warning(s).
+Build Time Elapsed:  00:00:03

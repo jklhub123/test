@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "protocol.C": "cpp",
+        "hjcmotioncontrollib.h": "c"
+    }
+}

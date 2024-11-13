@@ -1,0 +1,209 @@
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'D:\keil5\ARM\ARMCC\Bin'
+Build target 'BLFCN_V2.0'
+assembling startup_stm32f407xx.s...
+compiling dma.c...
+compiling gpio.c...
+compiling spi.c...
+../Drivers/MY/myPID.h(75): warning:  #1295-D: Deprecated declaration joint_OUTPUT_LIMIT - give arg types
+  void joint_OUTPUT_LIMIT();
+..\Core\Src\spi.c(109): warning:  #174-D: expression has no effect
+    __NOP;
+..\Core\Src\spi.c(113): warning:  #174-D: expression has no effect
+    __NOP;
+..\Core\Src\spi.c: 3 warnings, 0 errors
+compiling freertos.c...
+../Drivers/MY/myPID.h(75): warning:  #1295-D: Deprecated declaration joint_OUTPUT_LIMIT - give arg types
+  void joint_OUTPUT_LIMIT();
+../Core/Inc/hjcMotionControlLib.h(9): warning:  #1295-D: Deprecated declaration Angle_Reset - give arg types
+  void Angle_Reset();//锟斤拷取一锟轿角度ｏ拷锟斤拷锟斤拷为锟斤拷始�?
+../Core/Inc/hjcMotionControlLib.h(17): warning:  #1295-D: Deprecated declaration test - give arg types
+  void test();
+../Core/Inc/hjcMotionControlLib.h(18): warning:  #1295-D: Deprecated declaration joint_2_MOVR - give arg types
+  void joint_2_MOVR();
+../Core/Inc/hjcMotionControlLib.h(19): warning:  #1295-D: Deprecated declaration joint_2_WRITING - give arg types
+  void joint_2_WRITING();
+../Core/Inc/hjcMotionControlLib.h(21): warning:  #1295-D: Deprecated declaration joint_2_MOV_CLOSE_test - give arg types
+  void joint_2_MOV_CLOSE_test();
+../Core/Inc/hjcMotionControlLib.h(22): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Core/Src/freertos.c(263): warning:  #223-D: function "Read_B" declared implicitly
+      Read_B();
+../Core/Src/freertos.c: 8 warnings, 0 errors
+compiling usart.c...
+compiling hjcForm.c...
+../Drivers/MY/myPID.h(75): warning:  #1295-D: Deprecated declaration joint_OUTPUT_LIMIT - give arg types
+  void joint_OUTPUT_LIMIT();
+../Core/Inc/hjcMotionControlLib.h(9): warning:  #1295-D: Deprecated declaration Angle_Reset - give arg types
+  void Angle_Reset();//锟斤拷取一锟轿角度ｏ拷锟斤拷锟斤拷为锟斤拷始�?
+../Core/Inc/hjcMotionControlLib.h(17): warning:  #1295-D: Deprecated declaration test - give arg types
+  void test();
+../Core/Inc/hjcMotionControlLib.h(18): warning:  #1295-D: Deprecated declaration joint_2_MOVR - give arg types
+  void joint_2_MOVR();
+../Core/Inc/hjcMotionControlLib.h(19): warning:  #1295-D: Deprecated declaration joint_2_WRITING - give arg types
+  void joint_2_WRITING();
+../Core/Inc/hjcMotionControlLib.h(21): warning:  #1295-D: Deprecated declaration joint_2_MOV_CLOSE_test - give arg types
+  void joint_2_MOV_CLOSE_test();
+../Core/Inc/hjcMotionControlLib.h(22): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Core\Src\hjcForm.c(56): warning:  #1-D: last line of file ends without a newline
+  {{0,0,0,0,0,0,0,0,0,0,0,0,0},{50,35,15,15,160,-0.14282,0.043945,35,15,15,160,0.98877,-1.1206},{100,35,15,15,160,-0.14282,0.043945,35,15,15,160,0.98877,-1.1206},{150,35,15,15,160,-0.14282,0.043945,35,15,15,160,0.98877,-1.1206},{200,35,15,15,160,-0.14282,0.043945,35,15,15,160,0.98877,-1.1206},{250,35,15,15,160,-0.14282,0.043945,35,15,15,160,0.98877,-1.1206},{300,35,15,15,160,-0.14282,0.043945,35,15,15,160,0.98877,-1.1206},{350,35,15,15,160,-0.14282,0.043945,35,15,15,160,0.98877,-1.1206},{400,35,15,15,160,-0.14282,0.043945,35,15,15,160,0.98877,-1.1206},{450,35,15,15,160,-0.14282,0.043945,35,15,15,160,0.98877,-1.1206},{500,35,15,15,160,-0.14282,0.043945,35,15,15,160,0.98877,-1.1206},{550,35,15,15,160,-0.14282,0.043945,35,15,15,160,0.98877,-1.1206},{600,35,15,15,160,-0.14282,0.043945,35,15,15,160,0.98877,-1.1206},{650,35,15,15,160,-0.14282,0.043945,35,15,15,160,0.98877,-1.1206},{700,35,15,15,160,-0.14282,0.043945,35,15,15,160,0.98877,-1.1206},{750,35,15,15,160,-0.14282,0.043945,35,15,15,160,0.98877,-1.1206},{800,35,15,15,160,-0.14282,0.043945,35,15,15,160,0.98877,-1.1206},{850,35,15,15,160,-0.14282,0.043945,35,15,15,160,0.98877,-1.1206},{900,35,15,15,160,-0.14282,0.043945,35,15,15,160,0.98877,-1.1206},{950,35,15,15,160,-0.14282,0.043945,35,15,15,160,0.98877,-1.1206},{1000,35,15,15,160,-0.14282,0.043945,35,15,15,160,0.98877,-1.1206},{1050,35,15,15,160,-0.14282,0.043945,35,15,15,160,0.98877,-1.1206},{1100,35,15,15,160,-0.14282,0.043945,35,15,15,160,0.98877,-1.1206},{1150,35,15,15,160,-0.14282,0.043945,35,15,15,160,0.98877,-1.1206},{1200,35,15,15,160,-0.14282,0.043945,35,15,15,160,0.98877,-1.1206},{1250,35,15,15,160,-0.14282,0.043945,35,15,15,160,0.98877,-1.1206},{1300,35,15,15,160,-0.14282,0.043945,35,15,15,160,0.98877,-1.1206},{1350,35,15,15,160,-0.14282,0.043945,35,15,15,160,0.98877,-1.1206},{1400,35,15,15,160,-0.14282,0.043945,35,15,15,160,0.98877,-1.1206},{1450,35,15,15,160,-0.14282,0.043945,35,15,15,160,0.98877,-1.1206},{1500,35,15,15,160,-0.14282,0.043945,35,15,15,160,0.98877,-1.1206},{1550,35,15,15,160,-0.14282,0.043945,35,15,15,160,0.98877,-1.1206},{1600,75,30,30,90,0.27466,0,35,15,15,160,0.98877,-1.1206},{1650,75,30,30,90,0.27466,0,35,15,15,160,0.98877,-1.1206},{1700,75,30,30,90,0.27466,0,35,15,15,160,0.98877,-1.1206},{1750,75,30,30,90,0.27466,0,35,15,15,160,0.98877,-1.1206},{1800,75,30,30,90,0.27466,0,40,15,15,160,1.3074,-0.86792},{1850,80,30,30,95,0.85693,-0.37354,40,15,15,160,1.3074,-0.86792},{1900,85,30,30,95,1.3513,0.13184,40,15,15,160,1.3074,-0.86792},{1950,85,30,30,100,1.6809,-0.46143,40,15,15,160,1.3074,-0.86792},{2000,90,30,30,105,2.5049,-0.41748,90,30,30,85,3.9111,-0.75806},{2050,90,30,30,105,2.5049,-0.41748,90,30,30,75,4.0759,0.054931},{2100,90,30,30,105,2.5049,-0.41748,90,30,30,75,4.0759,0.054931},{2150,95,30,30,110,3.5156,-0.23071,90,30,30,75,4.0759,0.054931},{2200,95,30,30,110,3.5156,-0.23071,90,30,30,75,4.0759,0.054931},{2250,100,30,30,115,4.7571,-0.18677,90,30,30,75,4.0759,0.054931},{2300,100,30,30,115,4.7571,-0.18677,90,30,30,75,4.0759,0.054931},{2350,105,30,30,120,5.8118,-0.41748,100,30,30,75,6.1853,0.3186},{2400,105,30,30,120,5.8118,-0.41748,100,30,30,75,6.1853,0.3186},{2450,115,30,30,120,6.7017,0.34058,100,30,30,75,6.1853,0.3186},{2500,120,30,30,125,7.5146,0.30762,105,30,30,80,7.1741,-0.054932},{2550,120,30,30,125,7.5146,0.30762,110,30,30,85,8.1189,-0.38452},{2600,125,30,30,135,8.5913,-0.29663,110,30,30,85,8.1189,-0.38452},{2650,130,30,30,135,9.0857,0.19775,115,30,30,80,8.811,0.043945},{2700,135,30,30,140,9.624,-0.087891,120,30,30,85,9.4702,-0.30762},{2750,135,30,30,140,9.624,-0.087891,125,30,30,85,10.1404,0.010987},{2800,140,30,30,145,10.3491,-0.2417,130,30,30,85,10.7995,0.39551},{2850,145,30,30,150,11.1731,-0.3186,130,30,30,85,10.7995,0.39551},{2900,150,30,30,145,11.7884,0.28564,135,30,30,90,11.5686,-0.076904},{2950,150,30,30,145,11.7884,0.28564,140,30,30,95,12.3157,-0.47241},{3000,160,30,30,155,12.8759,-0.19775,140,30,30,95,12.3157,-0.47241},{3050,160,30,30,155,12.8759,-0.19775,145,30,30,90,12.887,0.076904},{3100,160,30,30,145,13.1506,0.12085,150,30,30,95,13.4473,-0.20874},{3150,160,30,30,145,1
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+..\Core\Src\hjcForm.c: 8 warnings, 0 errors
+compiling can.c...
+..\Core\Src\can.c(610): warning:  #167-D: argument of type "int8_t *" is incompatible with parameter of type "uint8_t *"
+  	CAN_Send(id + 0x141, cmdtemp);
+..\Core\Src\can.c: 1 warning, 0 errors
+compiling myPID.c...
+..\Drivers\MY\myPID.h(75): warning:  #1295-D: Deprecated declaration joint_OUTPUT_LIMIT - give arg types
+  void joint_OUTPUT_LIMIT();
+..\Drivers\MY\myPID.c(247): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  	Angel0 = (joint0_target_ang0 - joint0_rt_ang0)/180*3.14;
+..\Drivers\MY\myPID.c(248): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  	Angel1 = (joint0_target_ang1 - joint0_rt_ang1)/180*3.14;
+..\Drivers\MY\myPID.c(252): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  	pidcontrol0.error_angle = fAngel0/3.141*180;
+..\Drivers\MY\myPID.c(253): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  	pidcontrol1.error_angle = fAngel1/3.141*180;
+..\Drivers\MY\myPID.c(239): warning:  #177-D: variable "a"  was declared but never referenced
+  	float a;
+..\Drivers\MY\myPID.c(266): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  	Angel0=(float)ang0 / 8192 * 3.141;
+..\Drivers\MY\myPID.c(267): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  	Angel1=(float)ang1 / 8192 * 3.141;
+..\Drivers\MY\myPID.c(272): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  	ang0=fAngel0/3.141*180;
+..\Drivers\MY\myPID.c(273): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  	ang1=fAngel1/3.141*180;
+..\Drivers\MY\myPID.c(383): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+    float err_a = (x1 - y1 + (y0 - x0 ))/1.414;
+..\Drivers\MY\myPID.c(384): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+    float err_b = (x1 + y1 - (y0 + x0 ))/1.414;
+..\Drivers\MY\myPID.c(391): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+    float err_a_j2 = (x1_j2 - y1_j2 + (y0_j2 - x0_j2 ))/1.414;
+..\Drivers\MY\myPID.c(392): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+    float err_b_j2 = (x1_j2 + y1_j2 - (y0_j2 + x0_j2 ))/1.414; 
+..\Drivers\MY\myPID.c(394): warning:  #177-D: variable "theta_temp_j0"  was declared but never referenced
+    float theta_temp_j0 , theta_temp_j1;
+..\Drivers\MY\myPID.c(394): warning:  #177-D: variable "theta_temp_j1"  was declared but never referenced
+    float theta_temp_j0 , theta_temp_j1;
+..\Drivers\MY\myPID.c: 16 warnings, 0 errors
+compiling protocol.C...
+..\Drivers\MY\myPID.h(75): warning:  #1295-D: Deprecated declaration joint_OUTPUT_LIMIT - give arg types
+  void joint_OUTPUT_LIMIT();
+..\Drivers\MY\protocol.C(292): warning:  #177-D: variable "airway"  was declared but never referenced
+    uint16_t airway=0;
+..\Drivers\MY\protocol.C(79): warning:  #177-D: function "get_frame_checksum"  was declared but never referenced
+  static uint8_t get_frame_checksum(uint8_t *frame, uint16_t head_oft, uint16_t frame_len)
+..\Drivers\MY\protocol.C: 3 warnings, 0 errors
+compiling tim.c...
+compiling main.c...
+../Drivers/MY/myPID.h(75): warning:  #1295-D: Deprecated declaration joint_OUTPUT_LIMIT - give arg types
+  void joint_OUTPUT_LIMIT();
+../Core/Inc/hjcMotionControlLib.h(9): warning:  #1295-D: Deprecated declaration Angle_Reset - give arg types
+  void Angle_Reset();//锟斤拷取一锟轿角度ｏ拷锟斤拷锟斤拷为锟斤拷始�?
+../Core/Inc/hjcMotionControlLib.h(17): warning:  #1295-D: Deprecated declaration test - give arg types
+  void test();
+../Core/Inc/hjcMotionControlLib.h(18): warning:  #1295-D: Deprecated declaration joint_2_MOVR - give arg types
+  void joint_2_MOVR();
+../Core/Inc/hjcMotionControlLib.h(19): warning:  #1295-D: Deprecated declaration joint_2_WRITING - give arg types
+  void joint_2_WRITING();
+../Core/Inc/hjcMotionControlLib.h(21): warning:  #1295-D: Deprecated declaration joint_2_MOV_CLOSE_test - give arg types
+  void joint_2_MOV_CLOSE_test();
+../Core/Inc/hjcMotionControlLib.h(22): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Core/Src/main.c(70): warning:  #177-D: variable "rcvstate"  was declared but never referenced
+  static uint8_t rcvstate = 0x00;
+../Core/Src/main.c(71): warning:  #177-D: variable "tempdata"  was declared but never referenced
+  static uint32_t tempdata = 0;
+../Core/Src/main.c: 9 warnings, 0 errors
+compiling hjcMotionControlLib.c...
+../Drivers/MY/myPID.h(75): warning:  #1295-D: Deprecated declaration joint_OUTPUT_LIMIT - give arg types
+  void joint_OUTPUT_LIMIT();
+../Core/Inc/hjcMotionControlLib.h(9): warning:  #1295-D: Deprecated declaration Angle_Reset - give arg types
+  void Angle_Reset();//锟斤拷取一锟轿角度ｏ拷锟斤拷锟斤拷为锟斤拷始�?
+../Core/Inc/hjcMotionControlLib.h(17): warning:  #1295-D: Deprecated declaration test - give arg types
+  void test();
+../Core/Inc/hjcMotionControlLib.h(18): warning:  #1295-D: Deprecated declaration joint_2_MOVR - give arg types
+  void joint_2_MOVR();
+../Core/Inc/hjcMotionControlLib.h(19): warning:  #1295-D: Deprecated declaration joint_2_WRITING - give arg types
+  void joint_2_WRITING();
+../Core/Inc/hjcMotionControlLib.h(21): warning:  #1295-D: Deprecated declaration joint_2_MOV_CLOSE_test - give arg types
+  void joint_2_MOV_CLOSE_test();
+../Core/Inc/hjcMotionControlLib.h(22): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Core\Src\hjcMotionControlLib.c(28): warning:  #1000-D: a storage class may not be specified here
+  extern struct joint0;
+..\Core\Src\hjcMotionControlLib.c(29): warning:  #1000-D: a storage class may not be specified here
+  extern struct joint1;
+..\Core\Src\hjcMotionControlLib.c(138): warning:  #177-D: variable "data"  was declared but never referenced
+  		uint8_t data[8]={0};//气压数组初始化：[0-1]p0,[2-3]p1,[4-5]p2,[6-7]p3
+..\Core\Src\hjcMotionControlLib.c(278): warning:  #177-D: variable "angle0"  was declared but never referenced
+  	float angle0 ,angle1, pid0_o, pid1_o,ff0,ff1;
+..\Core\Src\hjcMotionControlLib.c(278): warning:  #177-D: variable "angle1"  was declared but never referenced
+  	float angle0 ,angle1, pid0_o, pid1_o,ff0,ff1;
+..\Core\Src\hjcMotionControlLib.c(278): warning:  #550-D: variable "pid0_o"  was set but never used
+  	float angle0 ,angle1, pid0_o, pid1_o,ff0,ff1;
+..\Core\Src\hjcMotionControlLib.c(278): warning:  #550-D: variable "pid1_o"  was set but never used
+  	float angle0 ,angle1, pid0_o, pid1_o,ff0,ff1;
+..\Core\Src\hjcMotionControlLib.c(278): warning:  #550-D: variable "ff0"  was set but never used
+  	float angle0 ,angle1, pid0_o, pid1_o,ff0,ff1;
+..\Core\Src\hjcMotionControlLib.c(278): warning:  #550-D: variable "ff1"  was set but never used
+  	float angle0 ,angle1, pid0_o, pid1_o,ff0,ff1;
+..\Core\Src\hjcMotionControlLib.c(598): warning:  #1-D: last line of file ends without a newline
+  }
+..\Core\Src\hjcMotionControlLib.c: 17 warnings, 0 errors
+compiling stm32f4xx_it.c...
+../Drivers/MY/myPID.h(75): warning:  #1295-D: Deprecated declaration joint_OUTPUT_LIMIT - give arg types
+  void joint_OUTPUT_LIMIT();
+../Core/Src/stm32f4xx_it.c(409): warning:  #111-D: statement is unreachable
+            break;
+../Core/Src/stm32f4xx_it.c(411): warning:  #1182-D: a declaration cannot have a label
+            uint8_t pressurech = UART_RCV_BUFFER[6];
+../Core/Src/stm32f4xx_it.c(384): warning:  #546-D: transfer of control bypasses initialization of:
+            variable "pressurech"  (declared at line 411)
+            variable "pressurevalue"  (declared at line 412)
+          switch (CMD_temp)
+          ^
+../Core/Src/stm32f4xx_it.c(562): warning:  #223-D: function "strlen" declared implicitly
+          HAL_UART_Transmit_DMA(&huart2, (uint8_t *)aTxBuffer, strlen(aTxBuffer));
+../Core/Src/stm32f4xx_it.c(595): warning:  #223-D: function "strlen" declared implicitly
+          HAL_UART_Transmit_DMA(&huart1, (uint8_t *)aTxBuffer, strlen(aTxBuffer));
+../Core/Src/stm32f4xx_it.c(615): warning:  #223-D: function "strlen" declared implicitly
+          HAL_UART_Transmit_DMA(&huart1, (uint8_t *)aTxBuffer, strlen(aTxBuffer));
+../Core/Src/stm32f4xx_it.c: 7 warnings, 0 errors
+compiling stm32f4xx_hal_flash.c...
+compiling stm32f4xx_hal_msp.c...
+compiling stm32f4xx_hal_flash_ramfunc.c...
+compiling stm32f4xx_hal_timebase_tim.c...
+compiling stm32f4xx_hal_rcc_ex.c...
+compiling stm32f4xx_hal_can.c...
+compiling stm32f4xx_hal_dma_ex.c...
+compiling stm32f4xx_hal_rcc.c...
+compiling stm32f4xx_hal_gpio.c...
+compiling stm32f4xx_hal_flash_ex.c...
+compiling stm32f4xx_hal_dma.c...
+compiling croutine.c...
+compiling event_groups.c...
+compiling list.c...
+compiling queue.c...
+compiling stream_buffer.c...
+compiling timers.c...
+compiling tasks.c...
+compiling heap_4.c...
+compiling port.c...
+compiling stm32f4xx_hal_pwr.c...
+compiling stm32f4xx_hal_cortex.c...
+compiling stm32f4xx_hal_pwr_ex.c...
+compiling stm32f4xx_hal.c...
+compiling stm32f4xx_hal_spi.c...
+compiling stm32f4xx_hal_exti.c...
+compiling system_stm32f4xx.c...
+compiling stm32f4xx_hal_tim_ex.c...
+compiling stm32f4xx_hal_uart.c...
+compiling stm32f4xx_hal_tim.c...
+compiling cmsis_os2.c...
+linking...
+Program Size: Code=35056 RO-data=632 RW-data=584 ZI-data=26064  
+FromELF: creating hex file...
+"BLFCN_V2.0\FFPIDv2.axf" - 0 Error(s), 72 Warning(s).
+Build Time Elapsed:  00:00:41
